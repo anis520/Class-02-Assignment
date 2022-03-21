@@ -5,7 +5,7 @@ let userName =prompt('What is your Name ?')
 let userAge =prompt(`Hello ${userName} .How old are you ?`)
 
 
-if(userAge>=21 && userAge<=35){
+if(userAge>=20 && userAge<=35){
     console.log(`Hello ${userName} .Your are allowed in our program`)
 }else{
     console.log(`Hello ${userName} .Your are not allowed in our program`)
